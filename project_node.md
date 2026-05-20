@@ -16,3 +16,9 @@ Maximize profitability of English training programs while scaling brand equity a
   * Online courses will likely show lower operating costs but may require higher initial marketing spend.
   * On-Spot (in-person) courses will suffer from physical venue overhead costs.
 * **Technical Roadblocks & Solutions**: None encountered during repository setup.
+
+### Day 2: Data Loading & Isolation
+* **Date**: May 19, 2026
+* **Actions Completed**: Downloaded Udemy dataset from Kaggle, loaded it into Google Colab, and filtered it using Python string matching.
+* **Key Business Assumptions**: Focused strictly on language titles containing core keywords (IELTS, TOEFL, grammar) to ensure baseline demographic alignment.
+* **Technical Roadblocks & Solutions**: Handled potential missing price values by cross-checking the `is_paid` boolean field.
